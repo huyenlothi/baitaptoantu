@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var inputPhysics;
+    var inputChemistry;
+    var inputBiology;
+    inputPhysics = prompt("nhap diem vat li ");
+    inputChemistry = prompt("nhap diem hoa hoc");
+    inputBiology = prompt("nhap diem sinh hoc");
+    var Physics =parseInt(inputPhysics);
+    var Chemistry =parseInt(inputChemistry);
+    var Biology =parseInt(inputBiology);
+    var medium = (Physics + Chemistry + Biology) / 3;
+    var sum = Physics + Chemistry + Biology;
+    document.write("the medium sores is: " + medium);
+    document.write("<br>");
+    document.write("the sum scores is : " + sum);
+</script>
+
+</body>
+</html>
